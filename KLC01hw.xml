@@ -14,7 +14,31 @@
         </value>
         <next>
           <block type="oled_drawtext" id="5">
-            <field name="TEXT">Hello World</field>
+            <field name="TEXT">Lukas farts really</field>
+            <next>
+              <block type="oled_setcursor" id="6" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="7">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="8">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="9">
+                    <field name="TEXT">** BAD **</field>
+                    <next>
+                      <block type="multimedia_playwav" id="13">
+                        <field name="WAV">1</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
