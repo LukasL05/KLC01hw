@@ -31,12 +31,12 @@
                   <block type="oled_drawtext" id="9">
                     <field name="TEXT">** BAD **</field>
                     <next>
-                      <block type="movement_forward" id="36">
+                      <block type="movement_reverse" id="121">
                         <next>
                           <block type="robot_delay" id="38" inline="true">
                             <value name="DELAY">
                               <block type="math_number" id="101">
-                                <field name="NUM">1000</field>
+                                <field name="NUM">10000</field>
                               </block>
                             </value>
                             <next>
