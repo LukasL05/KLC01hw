@@ -30,6 +30,13 @@
                 <next>
                   <block type="oled_drawtext" id="9">
                     <field name="TEXT">** BAD **</field>
+                    <next>
+                      <block type="movement_forward" id="36">
+                        <next>
+                          <block type="robot_delay" id="38" inline="true"></block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
