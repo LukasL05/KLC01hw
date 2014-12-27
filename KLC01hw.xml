@@ -43,7 +43,7 @@
                               <block type="movement_stop" id="13">
                                 <next>
                                   <block type="multimedia_playwav" id="14">
-                                    <field name="WAV">Prutt</field>
+                                    <field name="WAV">Prutt.wav</field>
                                   </block>
                                 </next>
                               </block>
