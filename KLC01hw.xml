@@ -40,7 +40,13 @@
                               </block>
                             </value>
                             <next>
-                              <block type="movement_stop" id="111"></block>
+                              <block type="movement_stop" id="111">
+                                <next>
+                                  <block type="multimedia_playwav" id="125">
+                                    <field name="WAV">LukasBaj</field>
+                                  </block>
+                                </next>
+                              </block>
                             </next>
                           </block>
                         </next>
