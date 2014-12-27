@@ -30,11 +30,6 @@
                 <next>
                   <block type="oled_drawtext" id="9">
                     <field name="TEXT">** BAD **</field>
-                    <next>
-                      <block type="multimedia_playwav" id="10">
-                        <field name="WAV">Hello</field>
-                      </block>
-                    </next>
                   </block>
                 </next>
               </block>
