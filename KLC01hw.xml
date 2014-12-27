@@ -31,7 +31,7 @@
                   <block type="oled_drawtext" id="9">
                     <field name="TEXT">** BAD **</field>
                     <next>
-                      <block type="multimedia_playwav" id="13">
+                      <block type="multimedia_playwav" id="10">
                         <field name="WAV">1</field>
                       </block>
                     </next>
